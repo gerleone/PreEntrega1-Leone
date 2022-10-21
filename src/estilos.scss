@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+html , body , #root {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+#navBar {
+    background-color: rgb(255, 0, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+#title {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    padding: 0.5rem;
+}
+
+#addCart{
+    padding: 1rem;
+}
+
+@media (max-width: 486px) {
+    #title {
+        font-size: 1.5rem;
+        padding: 0.3rem;
+    }
+}
+.links {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
